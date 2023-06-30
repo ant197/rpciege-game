@@ -1,3 +1,5 @@
+FROM gitpod/workspace-full:2023-01-16-03-31-28
+
 RUN mkdir -p ~/.local/bin
 RUN curl -L -o ~/.local/bin/soroban https://github.com/stellar/soroban-tools/releases/download/v0.8.0/soroban-cli-0.8.0-x86_64-unknown-linux-gnu
 RUN chmod +x ~/.local/bin/soroban
