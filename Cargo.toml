@@ -2,14 +2,11 @@
 resolver = "2"
 
 members = [
-    "game1",
+    "game3",
     "game5",
     "ex_liquidity_pool",
     "ex_token",
 ]
-
-[dev_dependencies]
-soroban-sdk = { version = "0.8.4", features = ["testutils"] }
 
 [profile.release]
 opt-level = "z"
