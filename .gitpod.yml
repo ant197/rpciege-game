@@ -6,3 +6,8 @@
 
 image:
   file: .gitpod.Dockerfile
+
+ports:
+  - port: 4226
+    visibility: private
+    onOpen: ignore
