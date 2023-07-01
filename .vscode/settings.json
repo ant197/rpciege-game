@@ -1,0 +1,5 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./game5/rpciege-deployer/Cargo.toml"
+    ]
+}
