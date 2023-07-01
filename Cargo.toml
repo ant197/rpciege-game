@@ -4,6 +4,8 @@ resolver = "2"
 members = [
     "game3",
     "game5",
+    "game5/rpciege-deployer",
+    "game5/rpciege-liquiditypool",
     "ex_liquidity_pool",
     "ex_token",
 ]
